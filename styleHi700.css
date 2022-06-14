@@ -1,0 +1,205 @@
+@media (min-width: 500px) and (max-width: 1110px) {
+    
+#main {
+    width: 11%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
+}
+#up {
+    min-height: 32%;
+}
+
+#pageMain {
+    width: 100%;
+  
+    
+}
+
+#FirstMain {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    left: 1%;
+    top: 18%;
+    
+}
+.menu {
+    border-radius: 18px;
+    width: 200px;
+    margin-left: 11px;
+    margin-top: 11px;
+    
+    opacity: 0;
+    height: 55px;
+    cursor: pointer;
+
+}
+td.title-td {
+    opacity: 0.74;
+}
+hr {
+
+    border: 1px !important;
+    height: 2px !important;
+
+}
+.large {
+    font-size: 18px;
+}
+.large2 {
+    font-size: 30px;
+}
+.page {
+    width: 60%;
+    
+    opacity: 0;
+    position: absolute;
+    border-radius: 20px;
+   
+    top: 9%;
+    left: 34%;
+    max-height: 300px;
+    min-height: 300px;
+    text-align: center;
+   
+    
+}
+.page2 {
+     overflow-y: scroll; 
+     max-height: 240px;
+     min-height: 240px;
+}
+div.title {
+  
+   
+    clear: both;
+}
+div.title2 {
+      border-radius: 20px 20px 0px 0px;
+    height: 40px;
+    width: 100%;
+     padding-top: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    text-align: center;
+}
+div.close {
+     float: left;
+     height: 60px;
+     width: 60px;
+     border-radius: 23px;
+     position: absolute;
+     top: -14px;
+     left: -14px;
+     cursor: pointer;
+}
+.page2::-webkit-scrollbar-track {
+
+  padding: 2px 0;
+  margin-right: 30px;
+
+}
+img.image {
+   
+}
+.page2::-webkit-scrollbar {
+  width: 10px;
+    padding-right: 30px;
+}
+
+.page2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+    padding-right: 30px;
+
+}
+.menu2 {
+    border-radius: 9px;
+    width: 170px;
+    margin: 2px;
+    opacity: 0;
+    height: 42px;
+    cursor: pointer;
+
+}
+.submenu {
+    padding-top: 8%;
+    padding-left: 15%;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.submenu2 {
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+.submenu22 {
+    padding-top: 5%;
+    padding-left: 4%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.menuDiv {
+    margin-left: 21px;
+}
+#secondMain {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    
+    
+}
+#thirdMain {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 87%;
+    top: 30%;
+}
+#vierMain {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    left: 93%;
+    top: 18%;
+    
+}
+#fiveMain {
+    width: 1px;
+    height: 1px;
+    border-radius: 90px;
+    position: absolute;
+    left: 48%;
+    top: 45%;
+        opacity: 0;
+    width: 0px;
+    height: 0px;
+   
+}
+#sixMain {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    
+}
+    
+}

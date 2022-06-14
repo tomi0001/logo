@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styleHi700.css">
+        <link rel="stylesheet" href="./styleHi1200.css">
+        <link rel="stylesheet" href="./styleHi1366.css">
+        <link rel="stylesheet" href="./styleHi1920.css">
+        <link rel="stylesheet" href="./styleColor.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+        <script src="./js.js"></script>
+                <link rel="stylesheet"  href='./bootstrap-5.1.3-dist/css/bootstrap.css'  >
+<script src="./bootstrap-5.1.3-dist/js/bootstrap.js" ></script>
+    </head>
+    <body>
+        <div id="pageMain">
+            
+            <div class="menu menuOver" onmouseover="menuOver('menu1')" onmouseout="menuOut('menu1')" id="menu1" onclick="loadMenu2()">
+                <div class="submenu">
+                MENU GÓRNE
+                </div>
+            </div>
+            <div class="menuDiv">
+                <div id="menu2" class="menu2 menuOver2"  onmouseover="menuOver2('menu2')" onmouseout="menuOut2('menu2')" onclick="loadPage('page1')">
+                     <div class="submenu2 center">
+                    CZYM SIĘ ZAJMUJE
+                     </div>
+                </div>
+                <div id="menu3" class="menu2 menuOver2"  onmouseover="menuOver2('menu3')" onmouseout="menuOut2('menu3')" onclick="loadPage('page2')">
+                    <div class="submenu2 center">
+                    MOJE OSIĄGNIĘCIA
+                    </div>
+                </div>
+                <div id="menu4" class="menu2 menuOver2"  onmouseover="menuOver2('menu4')" onmouseout="menuOut2('menu4')" onclick="loadPage('page3')">
+                    <div class="submenu22 center">
+                    MOJE UMIEJĘTNOŚCI
+                    </div>
+                </div>
+                <div id="menu5" class="menu2 menuOver2"  onmouseover="menuOver2('menu5')" onmouseout="menuOut2('menu5')">
+                    <div class="submenu2 center">
+                    OMNIE
+                    </div>
+                </div>
+                <div id="menu6" class="menu2 menuOver2"  onmouseover="menuOver2('menu6')" onmouseout="menuOut2('menu6')" onclick="loadPage('page4')">
+                    <div class="submenu2 center">
+                    KONTAKT
+                    </div>
+                </div>
+            </div>
+            
+            <div id="FirstMain" style="visibility: hidden;">
+                    
+                </div>
+
+            
+                
+                
+                <div id="secondMain" style="visibility: hidden;">
+                    
+                </div>
+                <div id="thirdMain" style="visibility: hidden;">
+                    
+                </div>
+                <div id="vierMain" style="visibility: hidden;">
+                    
+                </div>
+                <div id="fiveMain" >
+                
+                </div>
+                <div id="sixMain" style="visibility: hidden;">
+                    
+                </div>
+            
+        </div>
+        
+        <div class="page">
+            
+        </div>
+
+
+        
+        <div id="page4" style="display: none;">
+             <div class="title">
+                <a onclick="closeWindow()"><div class="close"><img src='./close2.png'></div></a>
+                <div class="title2">KONTAKT</div>
+                    
+            </div>
+            <br><br><br><br>
+            <span class="large2">
+                Mój Mail to tomi0001@gmail.com
+            </span>
+        </div>
+
+
+        
+        <div id="page1" style="display: none;">
+             <div class="title">
+                <a onclick="closeWindow()"><div class="close"><img src='./close2.png'></div></a>
+                <div class="title2">CZYM SIĘ ZAJMUJE</div>
+                    
+            </div>
+            <br><br>
+            <span class="large">
+                Zajmuje się tworzeniem aplikacji www i stron www. Strony i aplikacje tworzę w języku skryptowym PHP, języku zapytań SQL w systemie DBMS MySQL, do tworzenia tych aplikacji również wykorzystuje język HTML i system szablonów CSS. Również od 3 lat do robienia aplikacji www używam frameworka laravel, którego używam do dzisiaj
+            </span>
+        </div>
+        <div id="page2" style="display: none;">
+            
+            <div class="title">
+                <a onclick="closeWindow()"><div class="close"><img src='./close2.png'></div></a>
+                <div class="title2">MOJE OSIĄGNIĘCIA</div>
+                    
+            </div>
+            <div class="bs-example" data-example-id="contextual-table">
+                <div id="page22" class="page2">
+            <table  style="width: 75%; margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td class="colorTable large title-td " style="padding: 2%;">
+                        Rok
+                    2005 - 2009
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+                       Politechnika koszalińska Informatyka
+Specjalizacja Programowanie komputerów
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                      Rok 2016
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="colorTable" style="padding: 2%;">
+                     Rozpoczęcia nauki z użyciem Biblioteki Jquery
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                     Rok 2016
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+                   Rozpoczęcia nauki z użyciem Frameworka Laravel początkowo wersja 4 szybko wspoczyłem na wersje 5
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                   Rok 2018
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+              Zaznajomienie się w modelem MVC i umiejętnośc go wykorzystania. Oddzielenie w aplikacjach logiki biznesowej od controllerów
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                       Rok 2018
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+                        Napisanie w Frameworku Laravel 5 aplikacji<br>
+                        Przychodni lekarskiej
+<br>
+<a href="https://github.com/tomi0001/serwis" target="_blank">Source code</a><br>
+Zadaniem tej aplikacji jest rejestracja pacjentów do lekarzy, którzy leczą tych pacjentów, najpierw rejestruje się admin, którego zadaniem jest dodawać nowych lekarzy i pielegraniarki. Zadaniem pielegniarki jest zakładanie kot pacjentom i rejestrowaniem ich do poszczególnych lekarzy Screeny
+
+<a href="./screen/Screenshot_20190502_105334.png" target="_blank"><img src="./screen/Screenshot_20190502_105334_mini.png" class="image"></a><br><br>
+<a href="./screen/Screenshot_20190502_105414.png" target="_blank"><img src="./screen/Screenshot_20190502_105414_mini.png" class="image"></a><br><br>
+<a href="./screen/Screenshot_20190502_105507.png" target="_blank"><img src="./screen/Screenshot_20190502_105507_mini.png" class="image"></a><br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                     Rok 2019
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+                        Napisanie w Frameworku Laravel 5 aplikacji <br>
+                        Dzienniczek leków<br>
+                       <a href="https://github.com/tomi0001/leki_2019" target="_blank">Source code</a><br> <br>
+Zadaniem aplikacji jest prowadzenie dzinnika leków czyli po prostu wpisywanie sobie każdej dawki leku a dawka leku składa się z nazwy produktu nazwy substancji i grupy substancji i do tego wpisujemy użycie produsktu dawka data,godzina. Ten dzienniczek jest dla osób chorujących na różne choroby.
+<br>
+Screeny<br>
+<a href="./screen/Screenshot_20190502_104630.png" target="_blank"><img src="./screen/Screenshot_20190502_104630_mini.png" class="image"></a><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                    Rok 2019
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable ">
+                        Napisanie w Frameworku Laravel 5 aplikacji<br>
+                        Dzienniczek nastrojów<br>
+                         <a href="https://github.com/tomi0001/nastroj_2019" target="_blank">Source code</a><br> <br>
+Zadaniem aplikacji jest prowadzenie dziennika nastrojów. Czyli jak wprowadzamy nastrój to ma on wartość początek godziny i koniec godziny i ma on ustaloną wartość od -20 do +20 w tym zakresie wartości może również mierzyć poziom lęku zdenerwowania i pobudzenia
+czyli przykładowy nastrój będzie miał wartośc przykładowe nastrój 2 lęk 0 zdenerwowanie -1 pobudzenie 3 a godzina może być 12:00 - start 13:24 - koniec <br>
+Screeny <br>
+<a href="./screen/Screenshot_20190502_104753.png" target="_blank"><img src="./screen/Screenshot_20190502_104753_mini.png" class="image"></a><br><br>
+<a href="./screen/Screenshot_20190502_104831.png" target="_blank"><img src="./screen/Screenshot_20190502_104831_mini.png" class="image"></a><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+                 
+            </table>
+                </div>
+            </div>
+        </div>
+        <div id="page3" style="display: none;">
+             <div class="title">
+                <a onclick="closeWindow()"><div class="close"><img src='./close2.png'></div></a>
+                <div class="title2">MOJE UMIEJĘTNOŚCI</div>
+                    
+            </div>
+            
+            <div id="page23" class="page2">
+                <table  style="width: 75%; margin-left: auto; margin-right: auto;">
+                
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                     Język PHP
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+                        Znam język PHP na tyle, żeby pisać w nim aplikacje internetowe używam frameworków PHP takich jak np. Laravel
+                    </td>
+                </tr>
+
+
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+Język C/C++
+     </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+Znam tylko same podstawy podstaw wiedza tylko ze studiów
+                    </td>
+                </tr>
+       <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+Język JAVA
+              </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+Wiedza tylko ze studiów
+                 </td>
+                </tr>
+
+                
+                                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                    Język SQL
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+                        Można powiedzieć, że jest może na lekko niższym poziomie niż PHP, ale już operuje jointami
+
+                    </td>
+                </tr>
+
+
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+Framework Laravel 5
+     </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+Wiedza umożliwaijąca tworzenie aplikacji internetowych znam modele nie umiem robić tstów integracyjnych i nie umiem tworzyć API.
+                    </td>
+                </tr>
+       <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+Język JS/Jquery
+              </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+Wiedza bardzo niska jesli chodzi o javascript, ale wyższa jeśli chodzi o Jquery
+                 </td>
+                </tr>
+                
+                
+                                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                     Język HTML
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+                       Wiedza na podstawowym poziomie
+                    </td>
+                </tr>
+
+
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+Język CSS
+     </td>
+                </tr>
+                <tr>
+                    <td class="colorTable " style="padding: 2%;">
+Wiedza na tym samym poziomie co HTML
+                    </td>
+                </tr>
+     
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
