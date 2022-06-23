@@ -1,4 +1,4 @@
-@media (min-width: 500px) and (max-width: 1110px) {
+@media (min-width: 700px) and (max-width: 1110px) {
     
 #main {
     width: 11%;
@@ -64,16 +64,19 @@ hr {
    
     top: 9%;
     left: 34%;
-    max-height: 300px;
-    min-height: 300px;
+    max-height: 250px;
+    min-height: 250px;
     text-align: center;
    
     
 }
 .page2 {
      overflow-y: scroll; 
-     max-height: 240px;
-     min-height: 240px;
+     max-height: 190px;
+     min-height: 190px;
+}
+.image {
+    width: 400px;
 }
 div.title {
   
@@ -183,15 +186,26 @@ img.image {
     
 }
 #fiveMain {
-    width: 1px;
-    height: 1px;
+
     border-radius: 90px;
     position: absolute;
     left: 48%;
     top: 45%;
-        opacity: 0;
-    width: 0px;
-    height: 0px;
+     
+    
+   
+}
+.empty {
+    min-height: 60px;
+}
+.fiveMainTwo {
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    position: absolute;
+    left: 48%;
+    top: 45%;
+        opacity:0.9;
    
 }
 #sixMain {

@@ -183,15 +183,29 @@ img.image {
     
 }
 #fiveMain {
-    width: 1px;
-    height: 1px;
+    
     border-radius: 90px;
     position: absolute;
     left: 47%;
     top: 39%;
-    opacity: 0;
-    width: 0px;
-    height: 0px;
+    
+   
+   
+}
+.empty {
+    min-height: 150px;
+}
+.empty2 {
+    min-height: 150px;
+}
+.fiveMainTwo {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    position: absolute;
+    left: 48%;
+    top: 45%;
+        opacity:0.9;
    
 }
 #sixMain {

@@ -184,17 +184,13 @@ function cloneDiv(page) {
 function fiveMain() {
   //alert('dd');
    //alert(t.width);
-$('#fiveMain').animate({
+//$('#fiveMain').animate({
    
-    opacity: "0.9",
-    width: '+=5%',
-    height: '+=9%'
-
-    
+  $('#fiveMain').addClass("fiveMainTwo",5000,"linear");
 
 
 
-  }, 5000 );
+  //}, 5000 );
 }
 
 $(document).ready(function() {
