@@ -11,11 +11,25 @@ $(document).ready(function() {
 //    $( "#vierMain" ).css({left: '90%',top: '25%',opacity: '0'});
 //    $( "#fiveMain" ).css({left: '47%',top: '39%',opacity: '0',width: '0px',height: '0px'});
 //    $( "#sixMain" ).css({left: '10%',top: '30%',opacity: '0'});
-    
 
-    
-    
-   
+
+    function firstMain() {
+
+        $('#FirstMain').addClass("firstMainTwo",5000,"linear").removeClass("firstMainFirst",5000,"linear");
+    }
+    function secondMain() {
+
+        $('#SecondMain').addClass("secondMainTwo",5000,"linear").removeClass("secondMainFirst",5000,"linear");
+    }
+    function thirdMain() {
+
+        $('#ThirdMain').addClass("thirdMainTwo",5000,"linear").removeClass("thirdMainFirst",5000,"linear");
+    }
+    function vierMain() {
+
+        $('#VierMain').addClass("vierMainTwo",5000,"linear").removeClass("vierMainFirst",5000,"linear");
+    }
+   /*
   $( "#FirstMain" ).animate({
    
  
@@ -34,7 +48,11 @@ $(document).ready(function() {
 
 
   }, 5000 );
-  
+  */
+setTimeout(firstMain,5000);
+setTimeout(secondMain,5000);
+setTimeout(thirdMain,5000);
+setTimeout(vierMain,5000);
 setTimeout(fiveMain,10000);
 setTimeout(loadMenu,15000);
 }); // koniec funkcji ready
@@ -47,6 +65,9 @@ var valueCss = "";
 
 
 function loadMenu2() {
+    if ($("#menu1").hasClass("menu") != false) {
+        return;
+    }
    if ($("#menu2").css('opacity') == '0' ) {
        $(".menuDiv").css('display','block');
             $( "#menu2" ).animate({
@@ -56,7 +77,7 @@ function loadMenu2() {
 
 
 
-        }, 1000).css({ visibility: 'visible'});
+        }, 1000).css({ visibility: 'visible', cursor: 'pointer'});
 
 
             $( "#menu3" ).animate({
@@ -66,7 +87,7 @@ function loadMenu2() {
 
 
 
-        }, 1600).css({ visibility: 'visible'});
+        }, 1600).css({ visibility: 'visible', cursor: 'pointer'});
 
 
             $( "#menu4" ).animate({
@@ -76,7 +97,7 @@ function loadMenu2() {
 
 
 
-        }, 2400).css({ visibility: 'visible'});
+        }, 2400).css({ visibility: 'visible', cursor: 'pointer'});
 
 
             $( "#menu5" ).animate({
@@ -86,7 +107,7 @@ function loadMenu2() {
 
 
 
-        }, 3000).css({ visibility: 'visible'});
+        }, 3000).css({ visibility: 'visible', cursor: 'pointer'});
 
 
             $( "#menu6" ).animate({
@@ -96,7 +117,7 @@ function loadMenu2() {
 
 
 
-        }, 3600).css({ visibility: 'visible'});
+        }, 3600).css({ visibility: 'visible', cursor: 'pointer'});
    }
    else {
        //alert('dds');
@@ -132,16 +153,8 @@ function menuOut2(id) {
 }
 
 function loadMenu() {
-    $( ".menu" ).animate({
-   
- 
-    opacity: 0.9
+    $('#menu1').addClass("menuTwo",5000,"linear").removeClass("menu",5000,"linear");
 
-
-
-  }, 5000).css({ visibility: 'visible'});
-
-    
 }
 
 function closeWindow() {
@@ -186,83 +199,10 @@ function fiveMain() {
    //alert(t.width);
 //$('#fiveMain').animate({
    
-  $('#fiveMain').addClass("fiveMainTwo",5000,"linear");
+  $('#FiveMain').addClass("fiveMainTwo",5000,"linear");
 
 
 
   //}, 5000 );
 }
 
-$(document).ready(function() {
-    //wywołanie funkcji po załadowaniu całej strony
-
-    
-  $( "#secondMain" ).animate({
-   
-
-    opacity: 0.9
-
-
-
-  }, 5000 ).css({ visibility: 'visible'});
-  
-    $( "#secondMain" ).animate({
-   
-    left: "43%"
-
-    
-
-
-
-  }, 5000 );
-}); // koniec funkcji ready
-
-
-$(document).ready(function() {
-    //wywołanie funkcji po załadowaniu całej strony
-
-    
-  $( "#thirdMain" ).animate({
-   
-
-    opacity: 0.9
-
-
-
-  }, 5000 ).css({ visibility: 'visible'});
-  
-    $( "#thirdMain" ).animate({
-   
-    left: "51%"
-
-    
-
-
-
-  }, 5000 );
-}); // koniec funkcji ready
-
-
-$(document).ready(function() {
-    //wywołanie funkcji po załadowaniu całej strony
-
-    
-  $( "#vierMain" ).animate({
-   
-  
-    opacity: 0.9
-
-
-
-  }, 5000 ).css({ visibility: 'visible'});
-  
-    $( "#vierMain" ).animate({
-   
-    left: "55%"
-
-    
-
-
-
-  }, 5000 );
-}); // koniec funkcji ready

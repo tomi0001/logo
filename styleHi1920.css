@@ -19,27 +19,146 @@
     
     
 }
+.secondMainFirst {
 
-#FirstMain {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        position: absolute;
+        left: 9%;
+        top: 31%;
+
+
+
+}
+
+
+    .thirdMainFirst {
+
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        position: absolute;
+        left: 87%;
+        top: 31%;
+
+
+
+
+    }
+
+
+
+    .vierMainFirst {
+
+
+
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        position: absolute;
+        left: 90%;
+        top: 25%;
+
+
+
+
+
+
+    }
+
+    .secondMainTwo {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        position: absolute;
+        left: 43%;
+        top: 31%;
+
+
+
+    }
+
+
+    .thirdMainTwo {
+
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        position: absolute;
+        left: 51%;
+        top: 31%;
+
+
+
+
+    }
+
+
+
+    .vierMainTwo {
+
+
+
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        position: absolute;
+        left: 55%;
+        top: 25%;
+
+
+
+
+
+
+    }
+
+.firstMainFirst {
     width: 45px;
     height: 45px;
     border-radius: 50px;
     position: absolute;
     left: 7%;
     top: 25%;
-    
 }
+
+    .firstMainTwo {
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        position: absolute;
+        left: 41%;
+        top: 25%;
+        opacity:0.9;
+
+    }
 .menu {
     border-radius: 18px;
     width: 200px;
     margin-left: 11px;
     margin-top: 11px;
-    
     opacity: 0;
     height: 55px;
-    cursor: pointer;
+
+    cursor: default;
+
 
 }
+    .menuTwo {
+        border-radius: 18px;
+        width: 200px;
+        margin-left: 11px;
+        margin-top: 11px;
+        opacity: 0.9;
+        height: 55px;
+
+        cursor: pointer;
+
+    }
 td.title-td {
     opacity: 0.74;
 }
@@ -125,7 +244,7 @@ img.image {
     margin: 2px;
     opacity: 0;
     height: 42px;
-    cursor: pointer;
+    cursor: default;
 
 }
 .submenu {
@@ -155,39 +274,16 @@ img.image {
 .menuDiv {
     margin-left: 21px;
 }
-#secondMain {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    position: absolute;
-    left: 9%;
-    top: 31%;
-    
-    
-}
-#thirdMain {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    position: absolute;
-    left: 87%;
-    top: 31%;
-}
-#vierMain {
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    position: absolute;
-    left: 90%;
-    top: 25%;
-    
-}
-#fiveMain {
+
+
+    .fiveMainFirst {
+
     
     border-radius: 90px;
     position: absolute;
     left: 47%;
     top: 39%;
+        opacity: 0;
     
    
    
@@ -203,9 +299,10 @@ img.image {
     height: 90px;
     border-radius: 90px;
     position: absolute;
-    left: 48%;
-    top: 45%;
+    left: 47%;
+    top: 42%;
         opacity:0.9;
+
    
 }
 #sixMain {

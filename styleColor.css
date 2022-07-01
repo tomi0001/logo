@@ -49,25 +49,25 @@ box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 background-color: #790982;
 }
 
-#secondMain {
+#SecondMain {
         -webkit-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 -moz-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 background-color: #790982;
 }
-#thirdMain {
+#ThirdMain {
          -webkit-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 -moz-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 background-color: #790982;   
 }
-#vierMain {
+#VierMain {
          -webkit-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 -moz-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 background-color: #790982;   
 }
-#fiveMain {
+#FiveMain {
          -webkit-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 -moz-box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
 box-shadow: 0px 0px 54px 16px rgba(113, 16, 181, 1);
@@ -93,7 +93,12 @@ background-color: #790982;
 box-shadow: 0px 0px 29px 0px rgba(66, 68, 90, 1);  
 }
 
+.menuTwo {
 
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 29px 0px rgba(66, 68, 90, 1);
+}
 .menu2 {
       
 -webkit-box-shadow: 0px 0px 10px 0px rgba(66, 68, 90, 1);

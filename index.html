@@ -8,6 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styleHi300.css">
         <link rel="stylesheet" href="./styleHi700.css">
         <link rel="stylesheet" href="./styleHi1200.css">
         <link rel="stylesheet" href="./styleHi1366.css">
@@ -23,7 +24,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
         <div id="pageMain">
             
-            <div class="menu menuOver" onmouseover="menuOver('menu1')" onmouseout="menuOut('menu1')" id="menu1" onclick="loadMenu2()">
+            <div class="menu menuOver"  onmouseover="menuOver('menu1')" onmouseout="menuOut('menu1')" id="menu1" onclick="loadMenu2()">
                 <div class="submenu">
                 MENU GÓRNE
                 </div>
@@ -39,45 +40,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     MOJE OSIĄGNIĘCIA
                     </div>
                 </div>
-                <div id="menu4" class="menu2 menuOver2"  onmouseover="menuOver2('menu4')" onmouseout="menuOut2('menu4')" onclick="loadPage('page3')">
+                <div id="menu4" class="menu2 br menuOver2"  onmouseover="menuOver2('menu4')" onmouseout="menuOut2('menu4')" onclick="loadPage('page3')">
                     <div class="submenu22 center">
                     MOJE UMIEJĘTNOŚCI
                     </div>
                 </div>
+
                 <div id="menu5" class="menu2 menuOver2"  onmouseover="menuOver2('menu5')" onmouseout="menuOut2('menu5')">
                     <div class="submenu2 center">
                     OMNIE
                     </div>
                 </div>
-                <div id="menu6" class="menu2 menuOver2"  onmouseover="menuOver2('menu6')" onmouseout="menuOut2('menu6')" onclick="loadPage('page4')">
+                <div id="menu6" class="menu2 br menuOver2"  onmouseover="menuOver2('menu6')" onmouseout="menuOut2('menu6')" onclick="loadPage('page4')">
                     <div class="submenu2 center">
                     KONTAKT
                     </div>
                 </div>
             </div>
             
-            <div id="FirstMain" style="visibility: hidden;">
-                    
+            <div id="FirstMain" class="firstMainFirst">
+
                 </div>
 
             
                 
                 
-                <div id="secondMain" style="visibility: hidden;">
+                <div id="SecondMain" class="secondMainFirst">
                     
                 </div>
-                <div id="thirdMain" style="visibility: hidden;">
+                <div id="ThirdMain" class="thirdMainFirst">
                     
                 </div>
-                <div id="vierMain" style="visibility: hidden;">
+                <div id="VierMain" class="vierMainFirst">
                     
                 </div>
-                <div id="fiveMain" >
+                <div id="FiveMain"  class="fiveMainFirst">
                 
                 </div>
-                <div id="sixMain" style="visibility: hidden;">
-                    
-                </div>
+
             
         </div>
         
@@ -93,10 +93,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <div class="title2">KONTAKT</div>
                     
             </div>
-            <div class="empty"></div>
+            <div id="page22" class="page2">
             <span class="large2">
                 Mój Mail to tomi0001@gmail.com
             </span>
+                </div>
         </div>
 
 
@@ -107,10 +108,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <div class="title2">CZYM SIĘ ZAJMUJE</div>
                     
             </div>
-            <div class="empty2"></div>
+
+            <div id="page22" class="page2">
             <span class="large">
                 Zajmuje się tworzeniem aplikacji www i stron www. Strony i aplikacje tworzę w języku skryptowym PHP, języku zapytań SQL w systemie DBMS MySQL, do tworzenia tych aplikacji również wykorzystuje język HTML i system szablonów CSS. Również od 3 lat do robienia aplikacji www używam frameworka laravel, którego używam do dzisiaj
             </span>
+                </div>
         </div>
         <div id="page2" style="display: none;">
             
