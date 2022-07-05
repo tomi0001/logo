@@ -2,7 +2,9 @@ window.addEventListener( "load", e =>
   {   document.documentElement.style.height = document.documentElement.clientHeight +"px";
   }
 );
-
+$( window ).resize(function() {
+    document.documentElement.style.height = document.documentElement.clientHeight +"px";
+});
 $(document).ready(function() {
     //wywołanie funkcji po załadowaniu całej strony
 //    $( "#FirstMain" ).css({left: '7%',top: '25%',opacity: '0'});
@@ -193,6 +195,18 @@ function loadPage(page) {
 function cloneDiv(page) {
     $(".page").html($("#"+page).html());
 }
+
+
+function changeColor(color) {
+
+        var link = $("link[rel=stylesheet]")[5].href;
+
+        var css = link.substring(link.lastIndexOf('/') + 1, link.length)
+        $('link[href="' + css + '"]').attr('href',  "styleColor" + color + ".css" );
+        return false;
+
+}
+
 
 function fiveMain() {
   //alert('dd');

@@ -13,7 +13,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <link rel="stylesheet" href="./styleHi1200.css">
         <link rel="stylesheet" href="./styleHi1366.css">
         <link rel="stylesheet" href="./styleHi1920.css">
-        <link rel="stylesheet" href="./styleColor.css">
+        <link rel="stylesheet" href="styleColorPurple.css">
         <script src="./jquery-3.6.0.min.js"></script> 
         <script src="./jquery-ui-1.13.1/jquery-ui.js"></script> 
         
@@ -23,7 +23,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     </head>
     <body>
         <div id="pageMain">
-            
+            <div id="changeColorCss">
+                Zmiana koloru strony
+                <a onclick="changeColor('Purple')"><div class="stylePurple cssChange"></div></a>
+                <a onclick="changeColor('Green')"><div class="styleGreen cssChange"></div></a>
+            </div>
             <div class="menu menuOver"  onmouseover="menuOver('menu1')" onmouseout="menuOut('menu1')" id="menu1" onclick="loadMenu2()">
                 <div class="submenu">
                 MENU GÓRNE
@@ -46,7 +50,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </div>
                 </div>
 
-                <div id="menu5" class="menu2 menuOver2"  onmouseover="menuOver2('menu5')" onmouseout="menuOut2('menu5')">
+                <div id="menu5" class="menu2 menuOver2"  onmouseover="menuOver2('menu5')" onmouseout="menuOut2('menu5')" onclick="loadPage('page5')">
                     <div class="submenu2 center">
                     OMNIE
                     </div>
@@ -100,7 +104,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div>
         </div>
 
+        <div id="page5" style="display: none;">
+            <div class="title">
+                <a onclick="closeWindow()"><div class="close"><img src='./close2.png'></div></a>
+                <div class="title2">OMNIE </div>
 
+            </div>
+
+            <div id="page22" class="page2">
+            <span class="large">
+                Interesuje się informatyką od gimnazjum już w 1 klasie gimnazjum tworzyłem strony html
+            </span>
+            </div>
+        </div>
         
         <div id="page1" style="display: none;">
              <div class="title">
@@ -233,23 +249,41 @@ Screeny<br>
                         <hr>
                     </td>
                 </tr>
-                 <tr>
+                <tr>
                     <td class="colorTable large title-td" style="padding: 2%;">
-                    Rok 2019
+                        Rok 2019
                     </td>
                 </tr>
                 <tr>
                     <td class="colorTable ">
                         Napisanie w Frameworku Laravel 5 aplikacji<br>
                         Dzienniczek nastrojów<br>
-                         <a href="https://github.com/tomi0001/nastroj_2019" target="_blank">Source code</a><br> <br>
-Zadaniem aplikacji jest prowadzenie dziennika nastrojów. Czyli jak wprowadzamy nastrój to ma on wartość początek godziny i koniec godziny i ma on ustaloną wartość od -20 do +20 w tym zakresie wartości może również mierzyć poziom lęku zdenerwowania i pobudzenia
-czyli przykładowy nastrój będzie miał wartośc przykładowe nastrój 2 lęk 0 zdenerwowanie -1 pobudzenie 3 a godzina może być 12:00 - start 13:24 - koniec <br>
-Screeny <br>
-<a href="./screen/Screenshot_20190502_104753.png" target="_blank"><img src="./screen/Screenshot_20190502_104753_mini.png" class="image"></a><br><br>
-<a href="./screen/Screenshot_20190502_104831.png" target="_blank"><img src="./screen/Screenshot_20190502_104831_mini.png" class="image"></a><br><br>
+                        <a href="https://github.com/tomi0001/nastroj_2019" target="_blank">Source code</a><br> <br>
+                        Zadaniem aplikacji jest prowadzenie dziennika nastrojów. Czyli jak wprowadzamy nastrój to ma on wartość początek godziny i koniec godziny i ma on ustaloną wartość od -20 do +20 w tym zakresie wartości może również mierzyć poziom lęku zdenerwowania i pobudzenia
+                        czyli przykładowy nastrój będzie miał wartośc przykładowe nastrój 2 lęk 0 zdenerwowanie -1 pobudzenie 3 a godzina może być 12:00 - start 13:24 - koniec <br>
+                        Screeny <br>
+                        <a href="./screen/Screenshot_20190502_104753.png" target="_blank"><img src="./screen/Screenshot_20190502_104753_mini.png" class="image"></a><br><br>
+                        <a href="./screen/Screenshot_20190502_104831.png" target="_blank"><img src="./screen/Screenshot_20190502_104831_mini.png" class="image"></a><br><br>
                     </td>
                 </tr>
+                 <tr>
+                    <td class="colorTable large title-td" style="padding: 2%;">
+                    Rok 2022
+                    </td>
+                </tr>
+                <tr>
+                    <td class="colorTable ">
+                        Napisanie w Frameworku Laravel 7 aplikacji<br>
+                        Dzienniczek nastrojów/Dzienniczek leków<br>
+                         <a href="https://github.com/tomi0001/nastroj_2021" target="_blank">Source code</a><br> <br>
+                        Jest to napisana od podstaw aplikacja, która łączy ze sobą dwie aplikacje dzinniczek nastroju i dzienniczek leków
+ <br>
+Screeny <br>
+<a href="./screen/Screenshot_20220704_123904.png" target="_blank"><img src="./screen/Screenshot_20220704_123904_mini.png" class="image"></a><br><br>
+<a href="./screen/Screenshot_20220704_124657.png" target="_blank"><img src="./screen/Screenshot_20220704_124657_mini.png" class="image"></a><br><br>
+                    </td>
+                </tr>
+
                 <tr>
                     <td>
                         <hr>
