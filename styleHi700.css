@@ -1,6 +1,29 @@
 @media (min-width: 700px) and (max-width: 1110px) {
 
+    #changeColorCss {
+        position: absolute;
+        left: 70%;
+        top: 0%;
+        width: 200px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        float: left;
 
+
+    }
+
+    .cssChange {
+        width: 20px;
+        min-height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        float: left;
+        margin-right: 2px;
+    }
         #main {
             width: 11%;
             height: 20%;
@@ -279,10 +302,10 @@
 
 
         .empty {
-            min-height: 150px;
+
         }
         .empty2 {
-            min-height: 150px;
+            min-height: 30px;
         }
     .fiveMainFirst {
 

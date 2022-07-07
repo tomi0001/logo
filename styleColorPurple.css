@@ -15,6 +15,9 @@ background-image: linear-gradient(180deg, rgba(116, 34, 204, 1) 0%, rgba(204, 76
 .styleGreen {
     background-color: #15DA25;
 }
+.styleYellow {
+    background-color: #e6ff00;
+}
 .colorTable {
     color: #4D055F;
 }

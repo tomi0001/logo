@@ -15,6 +15,9 @@ body {
 .styleGreen {
     background-color: #15DA25;
 }
+.styleYellow {
+    background-color: #e6ff00;
+}
 .colorTable {
     color: #194604;
 }
@@ -26,7 +29,7 @@ div.title2 {
     color: white;
 }
 div.close {
-    background-color: #318500;
+    background-color: #00410d;
 }
 hr {
     background-color: rgba(255, 255, 255, 1) !important;

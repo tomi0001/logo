@@ -1,5 +1,28 @@
 @media (min-width: 1310px) and (max-width: 1810px) {
+    #changeColorCss {
+        position: absolute;
+        left: 87%;
+        top: 3%;
+        width: 200px;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        float: left;
 
+
+    }
+
+    .cssChange {
+        width: 30px;
+        min-height: 30px;
+        border-radius: 20px;
+        cursor: pointer;
+        float: left;
+        margin-right: 2px;
+    }
 #main {
     width: 11%;
     height: 20%;
