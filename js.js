@@ -198,7 +198,7 @@ function cloneDiv(page) {
 
 
 function changeColor(color) {
-        //alert('fff');
+
         var link = $("link[rel=stylesheet]")[5].href;
 
         var css = link.substring(link.lastIndexOf('/') + 1, link.length)

@@ -200,6 +200,14 @@
     .large {
         font-size: 24px;
     }
+    .large-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .large-small {
+        font-size: 25px;
+        font-weight: bold;
+    }
     .large2 {
         font-size: 33px;
     }

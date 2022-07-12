@@ -78,6 +78,14 @@ hr {
 .large2 {
     font-size: 33px;
 }
+    .large-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .large-small {
+        font-size: 25px;
+        font-weight: bold;
+    }
 .page {
     width: 60%;
     

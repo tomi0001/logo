@@ -2,7 +2,7 @@
 
     #changeColorCss {
         position: absolute;
-        left: 70%;
+        left: 75%;
         top: 0%;
         width: 200px;
         padding-top: 5px;
@@ -15,14 +15,21 @@
 
 
     }
+    .blank {
+        min-width: 70px;
+        min-height: 10px;
 
+        float: left;
+    }
     .cssChange {
-        width: 20px;
-        min-height: 20px;
+        width: 30px;
+        min-height: 30px;
         border-radius: 20px;
         cursor: pointer;
-        float: left;
+        float: right;
         margin-right: 2px;
+
+        clear: both;
     }
         #main {
             width: 11%;
@@ -195,6 +202,14 @@
         .large {
             font-size: 24px;
         }
+    .large-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .large-small {
+        font-size: 25px;
+        font-weight: bold;
+    }
         .large2 {
             font-size: 33px;
         }
