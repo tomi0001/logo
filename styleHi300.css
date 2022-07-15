@@ -220,16 +220,16 @@
 
         top: 20%;
         left: 5%;
-        max-height: 600px;
-        min-height: 600px;
+        max-height: 550px;
+        min-height: 550px;
         text-align: center;
 
 
     }
     .page2 {
         overflow-y: scroll;
-        max-height: 540px;
-        min-height: 540px;
+        max-height: 480px;
+        min-height: 480px;
     }
     div.title {
 
